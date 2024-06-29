@@ -64,7 +64,8 @@ The Video_Games_Data_Modeling.ipynb contains these data manipulation/feature Eng
 	- Experimented with 3 scalers: ultimately settled on Min Max Scaler
 
 ## Machine Learning
-** K-Means Clustering** 
+**K-Means Clustering** 
+
 Graphed the optimal K  using Elbow method and Silhoutte Score.
  
 Tested and Tuning for 2 factors:

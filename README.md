@@ -75,6 +75,9 @@ Tested and Tuning for 2 factors:
 For the model, I choses to drop the critic and user scores of the transformed data, and 
 used Min-Max Scaler. Optimal K was 43 clusters
 
+Here is the graph for optimal K:
+![Graphed Optimal K](https://github.com/advidical/Video_Games_K-Means_Recommendation_System/assets/42876714/3f2ae4e1-6513-43ce-bd7c-4f6359fb5865)
+
 Cluster predictions were put into the transformed dataframe and stored in a csv file for the 
 Recommendation Notebook
 
@@ -82,7 +85,11 @@ Results of the clustering are investigated at the end of the Notebook:
 
 The clusters group the data mainly by combination of a publisher profile type and a Genre.
 
-A couple of clusters had either Publisher profile types and/or 2 genres associated.  
+A couple of clusters had either Publisher profile types and/or 2 genres associated.
+
+Here is the visual of the cluster data:
+![Multi-Dimensional Cluster Visuall](https://github.com/advidical/Video_Games_K-Means_Recommendation_System/assets/42876714/5176c681-c179-41cb-a892-7313a4c00644)
+
 
 ## Recommendation Model
 the Video_Game_Recommendations.ipynb does the following:
